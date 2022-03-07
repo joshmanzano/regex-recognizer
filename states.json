@@ -1,0 +1,501 @@
+{
+    "states": [
+      {
+        "stateNumber": 0,
+        "name": "invalid",
+        "transitions": [
+          {
+            "character": " ",
+            "stateNumber": 0
+          },
+          {
+            "character": "a",
+            "stateNumber": 1
+          },
+          {
+            "character": "E",
+            "stateNumber": 2
+          },
+          {
+            "character": "U",
+            "stateNumber": 3
+          },
+          {
+            "character": "*",
+            "stateNumber": 4
+          },
+          {
+            "character": "+",
+            "stateNumber": 4
+          },
+          {
+            "character": "?",
+            "stateNumber": 4
+          },
+          {
+            "character": "(",
+            "stateNumber": 5
+          },
+          {
+            "character": ")",
+            "stateNumber": 6
+          },
+          {
+            "character": "b",
+            "stateNumber": 1
+          },
+          {
+            "character": "c",
+            "stateNumber": 1
+          },
+          {
+            "character": "d",
+            "stateNumber": 1
+          },
+          {
+            "character": "e",
+            "stateNumber": 1
+          },
+          {
+            "character": "f",
+            "stateNumber": 1
+          },
+          {
+            "character": "g",
+            "stateNumber": 1
+          },
+          {
+            "character": "h",
+            "stateNumber": 1
+          },
+          {
+            "character": "i",
+            "stateNumber": 1
+          },
+          {
+            "character": "j",
+            "stateNumber": 1
+          },
+          {
+            "character": "k",
+            "stateNumber": 1
+          },
+          {
+            "character": "l",
+            "stateNumber": 1
+          },
+          {
+            "character": "m",
+            "stateNumber": 1
+          },
+          {
+            "character": "n",
+            "stateNumber": 1
+          },
+          {
+            "character": "o",
+            "stateNumber": 1
+          },
+          {
+            "character": "p",
+            "stateNumber": 1
+          },
+          {
+            "character": "q",
+            "stateNumber": 1
+          },
+          {
+            "character": "r",
+            "stateNumber": 1
+          },
+          {
+            "character": "s",
+            "stateNumber": 1
+          },
+          {
+            "character": "t",
+            "stateNumber": 1
+          },
+          {
+            "character": "u",
+            "stateNumber": 1
+          },
+          {
+            "character": "v",
+            "stateNumber": 1
+          },
+          {
+            "character": "w",
+            "stateNumber": 1
+          },
+          {
+            "character": "x",
+            "stateNumber": 1
+          },
+          {
+            "character": "y",
+            "stateNumber": 1
+          },
+          {
+            "character": "z",
+            "stateNumber": 1
+          },
+          {
+            "character": "0",
+            "stateNumber": 1
+          },
+          {
+            "character": "1",
+            "stateNumber": 1
+          },
+          {
+            "character": "2",
+            "stateNumber": 1
+          },
+          {
+            "character": "3",
+            "stateNumber": 1
+          },
+          {
+            "character": "4",
+            "stateNumber": 1
+          },
+          {
+            "character": "5",
+            "stateNumber": 1
+          },
+          {
+            "character": "6",
+            "stateNumber": 1
+          },
+          {
+            "character": "7",
+            "stateNumber": 1
+          },
+          {
+            "character": "8",
+            "stateNumber": 1
+          },
+          {
+            "character": "9",
+            "stateNumber": 1
+          }
+        ]
+      },
+      {
+        "stateNumber": 1,
+        "name": "char",
+        "transitions": [
+          {
+            "character": "a",
+            "stateNumber": 1
+          },
+          {
+            "character": "b",
+            "stateNumber": 1
+          },
+          {
+            "character": "c",
+            "stateNumber": 1
+          },
+          {
+            "character": "d",
+            "stateNumber": 1
+          },
+          {
+            "character": "e",
+            "stateNumber": 1
+          },
+          {
+            "character": "f",
+            "stateNumber": 1
+          },
+          {
+            "character": "g",
+            "stateNumber": 1
+          },
+          {
+            "character": "h",
+            "stateNumber": 1
+          },
+          {
+            "character": "i",
+            "stateNumber": 1
+          },
+          {
+            "character": "j",
+            "stateNumber": 1
+          },
+          {
+            "character": "k",
+            "stateNumber": 1
+          },
+          {
+            "character": "l",
+            "stateNumber": 1
+          },
+          {
+            "character": "m",
+            "stateNumber": 1
+          },
+          {
+            "character": "n",
+            "stateNumber": 1
+          },
+          {
+            "character": "o",
+            "stateNumber": 1
+          },
+          {
+            "character": "p",
+            "stateNumber": 1
+          },
+          {
+            "character": "q",
+            "stateNumber": 1
+          },
+          {
+            "character": "r",
+            "stateNumber": 1
+          },
+          {
+            "character": "s",
+            "stateNumber": 1
+          },
+          {
+            "character": "t",
+            "stateNumber": 1
+          },
+          {
+            "character": "u",
+            "stateNumber": 1
+          },
+          {
+            "character": "v",
+            "stateNumber": 1
+          },
+          {
+            "character": "w",
+            "stateNumber": 1
+          },
+          {
+            "character": "x",
+            "stateNumber": 1
+          },
+          {
+            "character": "y",
+            "stateNumber": 1
+          },
+          {
+            "character": "z",
+            "stateNumber": 1
+          },
+          {
+            "character": "0",
+            "stateNumber": 1
+          },
+          {
+            "character": "1",
+            "stateNumber": 1
+          },
+          {
+            "character": "2",
+            "stateNumber": 1
+          },
+          {
+            "character": "3",
+            "stateNumber": 1
+          },
+          {
+            "character": "4",
+            "stateNumber": 1
+          },
+          {
+            "character": "5",
+            "stateNumber": 1
+          },
+          {
+            "character": "6",
+            "stateNumber": 1
+          },
+          {
+            "character": "7",
+            "stateNumber": 1
+          },
+          {
+            "character": "8",
+            "stateNumber": 1
+          },
+          {
+            "character": "9",
+            "stateNumber": 1
+          },
+          {
+            "character": "b",
+            "stateNumber": 1
+          },
+          {
+            "character": "c",
+            "stateNumber": 1
+          },
+          {
+            "character": "d",
+            "stateNumber": 1
+          },
+          {
+            "character": "e",
+            "stateNumber": 1
+          },
+          {
+            "character": "f",
+            "stateNumber": 1
+          },
+          {
+            "character": "g",
+            "stateNumber": 1
+          },
+          {
+            "character": "h",
+            "stateNumber": 1
+          },
+          {
+            "character": "i",
+            "stateNumber": 1
+          },
+          {
+            "character": "j",
+            "stateNumber": 1
+          },
+          {
+            "character": "k",
+            "stateNumber": 1
+          },
+          {
+            "character": "l",
+            "stateNumber": 1
+          },
+          {
+            "character": "m",
+            "stateNumber": 1
+          },
+          {
+            "character": "n",
+            "stateNumber": 1
+          },
+          {
+            "character": "o",
+            "stateNumber": 1
+          },
+          {
+            "character": "p",
+            "stateNumber": 1
+          },
+          {
+            "character": "q",
+            "stateNumber": 1
+          },
+          {
+            "character": "r",
+            "stateNumber": 1
+          },
+          {
+            "character": "s",
+            "stateNumber": 1
+          },
+          {
+            "character": "t",
+            "stateNumber": 1
+          },
+          {
+            "character": "u",
+            "stateNumber": 1
+          },
+          {
+            "character": "v",
+            "stateNumber": 1
+          },
+          {
+            "character": "w",
+            "stateNumber": 1
+          },
+          {
+            "character": "x",
+            "stateNumber": 1
+          },
+          {
+            "character": "y",
+            "stateNumber": 1
+          },
+          {
+            "character": "z",
+            "stateNumber": 1
+          },
+          {
+            "character": "0",
+            "stateNumber": 1
+          },
+          {
+            "character": "1",
+            "stateNumber": 1
+          },
+          {
+            "character": "2",
+            "stateNumber": 1
+          },
+          {
+            "character": "3",
+            "stateNumber": 1
+          },
+          {
+            "character": "4",
+            "stateNumber": 1
+          },
+          {
+            "character": "5",
+            "stateNumber": 1
+          },
+          {
+            "character": "6",
+            "stateNumber": 1
+          },
+          {
+            "character": "7",
+            "stateNumber": 1
+          },
+          {
+            "character": "8",
+            "stateNumber": 1
+          },
+          {
+            "character": "9",
+            "stateNumber": 1
+          }
+        ]
+      },
+      {
+        "stateNumber": 2,
+        "name": "epsilon",
+        "transitions": []
+      },
+      {
+        "stateNumber": 3,
+        "name": "union",
+        "transitions": []
+      },
+      {
+        "stateNumber": 4,
+        "name": "symbol",
+        "transitions": []
+      },
+      {
+        "stateNumber": 5,
+        "name": "(",
+        "transitions": []
+      },
+      {
+        "stateNumber": 6,
+        "name": ")",
+        "transitions": []
+      }
+    ]
+  }

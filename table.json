@@ -1,0 +1,29 @@
+{
+    "S":{
+        "char":["A"],
+        "epsilon":["A"],
+        "(":["A"]
+    },
+    "A":{
+        "char":["B", "char"],
+        "epsilon":["C", "epsilon"],
+        "(":["B",")","A","("]
+    },
+    "B":{
+        "char":["A"],
+        "epsilon":["A"],
+        "(":["A"],
+        "union":["A", "union"],
+        "symbol":["C", "symbol"],
+        ")":[],
+        "$":[]
+    },
+    "C":{
+        "char":["A"],
+        "epsilon":["A"],
+        "(":["A"],
+        "union":["A", "union"],
+        ")":[],
+        "$":[]
+    }
+}

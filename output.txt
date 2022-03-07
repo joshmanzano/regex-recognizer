@@ -1,0 +1,25 @@
+(0U1)(0U1)* - ACCEPT
+1U(0U1)*U1 - ACCEPT
+(0U1)((0U1)(0U1))* - ACCEPT
+(1*011*(0U011*))* - ACCEPT
+(0U1)*110(0U1)*U* - REJECT
+(0U1)(0U1)*+ - REJECT
+(1*011*(0+011*) - REJECT
+(0U1)U(0U1)(0U1)U(0U1)(0U1) - ACCEPT
+*(1U0) - REJECT
+(abc1)?bc+u*??a+ - REJECT
+helloworld - ACCEPT
+1U(0U1)*U1U01|a - REJECT
+a|(b|c)*|c - REJECT
+? - REJECT
+((0U1)*1UE)(00)*00? - ACCEPT
+(01U001U1)*(0U00UE) - ACCEPT
+((aUb)U1)++ - REJECT
+a*a(cUa)* - ACCEPT
+a - ACCEPT
+(this*is*wrong(U) - REJECT
+(((((E)))))*((a)) - ACCEPT
+(((((E)))))*(a)) - REJECT
+E U E - ACCEPT
+bUU - REJECT
+iUwillUpassUcmpiler - ACCEPT
